@@ -1,0 +1,101 @@
+.box {
+    background-color:#007EA7;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 91.1vh;
+  }
+  
+  .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14.8vh;
+  }
+  
+  .button{
+    display: flex;
+    margin-top: 2vh;
+    height:7.5vh;
+    width:12.7vw;
+    border-radius: 0.2vw;
+    align-items: center;
+    justify-content: center ;
+  }
+  .button-child{
+    display:flex;
+    flex-direction: row;
+    height: 7vw;
+    width:12vw;
+    align-items: center;
+    justify-content:center;
+  }
+
+  .button:hover{
+    background: #00A8E8;
+    border-radius: 10px;
+  }
+
+  .button-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1vw;
+  line-height: 1.2vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  }
+
+  .sidenav{
+    width:15.2vw;
+  }
+
+  .endside-title{
+    padding-left: 2vw;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1.2vw;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+
+  .esmbutton{
+    display: flex;
+    margin-top: 2vh;
+    height:4vh;
+    width:7vw;
+    align-items: center;
+    justify-content: center ;
+    cursor: pointer;
+    margin-left: 1vw;
+  }
+  .esmbutton-child{
+    display:flex;
+    flex-direction: row;
+    height:2.2vh;
+    width:5vw;
+    align-items: center;
+    justify-content:center;
+  }
+
+  .esmbutton:hover{
+    background: #00A8E8;
+  }
+
+  .esmbutton-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: .9vw;
+    line-height: 1.1vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
